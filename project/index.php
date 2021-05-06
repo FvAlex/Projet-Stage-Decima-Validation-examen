@@ -1,5 +1,7 @@
 <?php
 
+// README.md dans le dossier doc
+
 include('./include/fonction.php');
 
 $mysql_HDF = initSqlHDF();

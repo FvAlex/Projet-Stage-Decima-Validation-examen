@@ -10,6 +10,8 @@ switch($fonctionModal) {
 		break;
 }
 
+// Fonction permettant de mettre à jour les données inscrite dans complete_devis_modal et étant rappellé dans la fonction ajax dans test-pre.php
+
 function complete_devis_modal($database,$date_reception_pv,$date_facture_decima,$date_commande,$litige,$date_facturation_st,$date_facturation_4,$numero_facture_st,$numero_facturation_decima,$reference_devis_st,$prix_devis_st,$num_commande,$postDevis)
 {	
 	switch($database){
@@ -64,6 +66,7 @@ switch($fonction) {
 		break;
 }
 
+// Fonction permettant de mettre à jour les données inscrite dans complete_devis et étant dans la seconde fonction ajax dans test-pre.php
 function complete_devis($database,$date_reception_pv,$date_facture_decima,$date_commande,$date_facturation_st,$date_facturation_4,$postEtat,$postDevis)
 {	
 	switch($database){
