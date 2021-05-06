@@ -1,0 +1,495 @@
+body{
+    margin: 0;
+    background-image: url(/project/images/body_back.jpg);
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+}
+/******************************************/
+/*NavBar*/
+
+nav{
+    height: 70px;
+    background-color: rgba(17, 17, 17, .8);
+    box-shadow: 0px 1px 8px 1px rgb(0 0 0 / 80%);
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: row;
+    position: sticky;
+}
+
+.nav_logo_gmao{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav_logo_deconnection{
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.nav_redirection{
+    height: 20px;
+    width: 90px;
+    margin-left: auto;
+}
+.nav_redirection_ancre{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+/*Changer cette negation de valeur IMPORTANT!!*/
+
+.nav_box_redirection{
+    display: flex;
+    margin-left: auto;
+    margin-top: -60px;
+}
+
+/****************************/
+
+.nav__box_redirection_droite{
+    display: flex;
+    margin-left: auto;
+}
+.nav_redirection_stats{
+    margin-right: 200px;
+    font-size: 20pt;
+    margin-top: 10px;
+}
+.redirection_row{
+    flex-direction: row;
+    margin-top: 15px;
+}
+.nav_redirection--modif_logo-deconnection{
+    margin-top: 10px;
+}
+
+/******************************************/
+
+.select_categories{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/*Header*/
+
+header{
+    height: 440px;
+    width: 90%;
+    background-color: #b8cccf;
+    margin-left: 5%;
+    margin-top: 50px;
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, .2);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header_moyenne{
+    height: 380px;
+    width: 60%;
+    background-color: white;
+    margin-left: 55px;
+    margin-top: 30px
+}
+.header_stats{
+    height: 380px;
+    width: 30%;
+    background-color: black;
+    margin-left: 55px;
+    margin-top: 30px
+}
+
+/******************************************/
+
+/*Filtre*/
+
+.dropdown-toggle{
+    height: 40px;
+    margin-left: 10px;
+    width: 100px;
+}
+.select_taille_filtre{
+    margin-bottom: 30px;
+    width: 100px;
+
+}
+.filter-option-inner-inner{
+    font-size: 15pt;
+}
+.bootstrap-select{
+    
+    width: 500px;
+}
+/******************************************/
+
+    /*Formulaire*/
+
+/*Table*/
+
+.form_table{
+    border-style: solid black;
+    border-collapse: collapse;
+    box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.75);
+    margin: auto;
+}
+/***********/
+
+th{
+    font-size: 9pt;
+    margin-left: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 9pt;
+}
+.td_select{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Table th*/
+
+.form_head{
+    display: flex;
+    background-color: #E1D2B8;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.input_text_thead{
+    width: 50px;
+}
+.libelle{
+    width: 800px;
+}
+.padding_non_input{
+    padding-bottom: 20px;
+    padding: 10px;
+}
+/***********/
+
+/*Table td*/
+
+.select_taille{
+    width: 80px;
+}
+.date{
+    width: 54px;
+}
+.filter{
+    display: inline-block;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.form_logo_doc{
+    height: 50px;
+    padding: 12px;
+}
+.form_logo_pencil{
+    height: 50px;
+}
+.form_logo_valide{
+    height: 20px;
+}
+.container{
+    width: 125px;
+}
+.CMD_width{
+    width: 130px;
+}
+
+/******************************************/
+.filtreSession{
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.modal-content{
+    height: 900px;
+}
+p{
+    font-size: 15px;
+    margin: 0 0 0px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.btn{
+    padding: 0px 0px;
+}
+.modal_couleur{
+    background-color: #E7E7E7;
+    box-shadow: 0px 1px 8px 1px rgb(0 0 0 / 80%);
+    margin: 10px;
+    border-radius: 5px;
+}
+.modal-body{
+    overflow-y: auto;
+}
+.modal-dialog{
+    overflow-y: initial !important;
+}
+.title_modification_devis{
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.taille_date_modification{
+    width: 120px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.modal_padding_input{
+    padding-bottom: 20px;
+}
+.filtreSessionModal{
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 15px;
+}
+.show1{
+    visibility: hidden;
+}
+.select_contrat_etat{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(225, 210, 184, .8);
+    margin-bottom: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 1000px;
+}
+.select_etat{
+    display: flex;
+    flex-direction: row;
+    /* background-color: grey; */
+    padding: 20px;
+}
+.p_etat_devis{
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 10px;
+    width: 140px;
+}
+.select_contrat{
+    display: flex;
+    flex-direction: row;
+    /* background-color: coral; */
+    padding: 20px;
+}
+.p_contrat{
+    font-size: 15pt;
+    margin-top: 10px;
+    width: 85px;
+
+}
+.dropdown{
+    display: flex !important;
+    flex-direction: row;
+    margin-top: 5px;
+    padding: 20px;
+}
+.p_dropdown{
+    font-size: 15pt;
+    margin-top: 5px;
+    text-align: center;
+    width: 65px;
+
+}
+.dropbtn{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 5px;
+    border: solid black 1pt !important;
+    padding: 10px !important;
+    margin-left: 15px;
+    height: 40px;
+    font-size: 20pt;
+    width: 120px;
+}
+.parametre_filtre{
+    width: 40px;
+    height: 35px;
+    position: relative; 
+    margin-left: auto ;
+}
+.fas{
+    font-size: 25pt;
+}
+.box_icon_parametre{
+    margin-right: 20px;
+}
+.pop_up_filtre{
+    width: 90% !important;
+    height: 850px;
+    margin: auto;
+    background-color: white;
+    margin-top: 40px;
+}
+.body_pop_up_filtre{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1632px;
+}
+.filtrage_hr_vertical{
+    width: 10px;
+    margin: 10px auto;
+    margin-top: 75px;
+    background-color: black;
+    width: 1px;
+    height: 460px;
+}
+.filtrage_hr_horizontal{
+    width: 400px;
+    margin: 20px auto;
+    background-color: black;
+    height: 1px;
+}
+.filtrage_st_4{
+    height: 600px;
+    width: 500px;
+    margin: 10px;
+}
+.filtrage_decima{
+    height: 600px;
+    width: 500px;
+    margin: 10px auto;
+    background-color: #E7E7E7;
+    box-shadow: 0px 1px 8px 1px rgb(0 0 0 / 80%);
+}
+.filtrage_st{
+    background-color: #E7E7E7;
+    box-shadow: 0px 1px 8px 1px rgb(0 0 0 / 80%);
+    height: 250px;
+    width: 450px;
+    margin: 10px auto;
+    margin-top: 39px;
+}
+.filtrage_4{
+    background-color: #E7E7E7;
+    box-shadow: 0px 1px 8px 1px rgb(0 0 0 / 80%);
+    height: 250px;
+    width: 450px;
+    margin: 10px auto;
+}
+.filtrage_autre{
+    background-color: #E7E7E7;
+    box-shadow: 0px 1px 8px 1px rgb(0 0 0 / 80%);
+    height: 600px;
+    width: 500px;
+    margin: 10px;
+}
+.titre_filtre{
+    padding: 10px;
+    text-align: center;
+}
+.box_checkbox_decima{
+    margin: 0 auto;
+    height: 500px;
+    width: 450px;
+    padding: 10px;
+}
+.box_checkbox_st{
+    margin: 0 auto;
+    height: 180px;
+    width: 400px;
+    padding: 10px;
+}
+.box_checkbox_4{
+    margin: 0 auto;
+    height: 180px;
+    width: 400px;
+    padding: 10px;
+}
+.box_checkbox_autre{
+    margin: 0 auto;
+    height: 500px;
+    width: 450px;
+    padding: 10px;
+}
+.taille_p_filtrage{
+    font-size: 15pt;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
