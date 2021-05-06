@@ -70,7 +70,7 @@ if(isset($_GET['etat_BDD']))
 </head>
 <body>
     <nav>
-        <a href="test-pre.php"><img src="images/logoLeft.png" class="nav_logo_gmao" alt="logo Gmao"></a>
+        <a href="index.php"><img src="images/logoLeft.png" class="nav_logo_gmao" alt="logo Gmao"></a>
         <div class="nav_box_redirection">
             <div class="nav__box_redirection_droite">
                 <div class="redirection_row">
