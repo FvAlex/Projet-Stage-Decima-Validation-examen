@@ -6,26 +6,26 @@ session_start();
 
 function initSqlHDF()
 {
-	$mysql = new MySQL('cmt_hdf', 'root', 'MyMult1T3ch', '127.0.0.1');
+	$mysql = new MySQL('xxxx', 'xxxx', 'xxxx', 'xxxx');
 	$mysql->executeSQL("set names 'utf8'");
 	return $mysql;
 }
 
 function initSqlASTI_NPC()
 {
-	$mysql = new MySQL('clim_asti_npdc', 'root', 'MyMult1T3ch', '127.0.0.1');
+	$mysql = new MySQL('xxxx', 'xxxx', 'xxxx', 'xxxx');
 	$mysql->executeSQL("set names 'utf8'");
 	return $mysql;
 }
 function initSqlASTI_PCD()
 {
-	$mysql = new MySQL('clim_asti_picardie', 'root', 'MyMult1T3ch', '127.0.0.1');
+	$mysql = new MySQL('xxxx', 'xxxx', 'xxxx', 'xxxx');
 	$mysql->executeSQL("set names 'utf8'");
 	return $mysql;
 }
 function initSqlMBL()
 {
-	$mysql = new MySQL('mobiliers_idf', 'root', 'MyMult1T3ch', '127.0.0.1');
+	$mysql = new MySQL('xxxx', 'xxxx', 'xxxx', 'xxxx');
 	$mysql->executeSQL("set names 'utf8'");
 	return $mysql;
 }
